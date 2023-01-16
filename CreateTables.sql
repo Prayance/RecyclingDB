@@ -20,13 +20,11 @@ GO
 IF OBJECT_ID('WasteTypeDim', 'U') IS NOT NULL
 DROP TABLE WasteTypeDim
 GO
--- Create the table in the specified schema
 CREATE TABLE WasteTypeDim
 (
 	WasteTypeID INT NOT NULL PRIMARY KEY, -- primary key column
 	Restriction [NVARCHAR](50),
 	WasteName [NVARCHAR](50)
-
 );
 GO
 

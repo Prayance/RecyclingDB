@@ -49,7 +49,7 @@ USING GITHUB
     Step 4: Push Code From Visual Studio Code To GitHub
         Inside the Source Control panel, click on the three-dot (ellipsis) icon. Select Pull, Push option from the list of options and then select "Push to" option.
         On the right corner, you will be prompted to add a remote. Click on Add Remote button.
-        Next, on the top-center, a palette will appear. Paste the copied GitHub repository URL and press Enter.
+        Next, on the top-centre, a palette will appear. Paste the copied GitHub repository URL and press Enter.
         Then, type any remote name and press Enter. I typed "First Remote"
         Open the Push to sub-menu option again. Then, choose your repository path and press Enter.
         A pop-up will appear to log in to GitHub. Choose which option you’ll use to sign – I’m using my browser.
@@ -71,4 +71,20 @@ Step 3:
     Note: Make sure you are connected to the University's VPN before you do this step.
     Select the MS SQL: Manage Connection Profiles command.
     Then select Create to create a new connection profile for your SQL Server.
-    Follow the prompts to specify the properties for the new connection profile. After specifying each value, press Enter to continue.
+    Follow the prompts to specify the properties for the new connection profile.
+    These properties have been emailed to each one of you individually!
+    After specifying each value, press Enter to continue.
+    For more information about manage connection profiles please visit: https://github.com/Microsoft/vscode-mssql/wiki/manage-connection-profiles
+    
+Step 4 - connect to Databases:
+    The database names you need are HappyBakery and RecyclingDB.
+    If for any reason you cannot connect please:
+        (1) make sure your IP, DB name, Username, password are correct; 
+        (2) make sure you followed precisely all the guidelines; 
+        (3) make sure you are connected to the University VPN and your internet connection is working;
+        (4) restart your VSCode, Azure DB or any editor;
+        (5) restart your computer
+
+
+
+
