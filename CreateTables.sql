@@ -29,3 +29,19 @@ CREATE TABLE WasteTypeDim
 GO
 
 
+-- Create a new table called 'CollectionCentreDim'
+-- Drop the table if it already exists
+IF OBJECT_ID('CollectionCentreDim', 'U') IS NOT NULL
+DROP TABLE CollectionCentreDim
+GO
+CREATE TABLE CollectionCentreDim
+(
+	CentreID INT NOT NULL PRIMARY KEY, -- primary key column
+	CentreName [NVARCHAR](20) NOT NULL,
+	FirstLine [NVARCHAR](50),
+	SecondLine [NVARCHAR](50),
+	City [NVARCHAR](30),
+	PostCode [NVARCHAR](9)
+);
+GO
+
